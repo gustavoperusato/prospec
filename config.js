@@ -7,7 +7,7 @@
 export const CONFIG = {
   // Google Cloud → Credentials → OAuth client ID → Web application.
   // Ver README.md, seção "Google Cloud".
-  CLIENT_ID: 'PREENCHA_AQUI.apps.googleusercontent.com',
+  CLIENT_ID: '403372754102-nvo9ikb5sjum0mrm20dukf8c7incfi6i.apps.googleusercontent.com',
 
   SPREADSHEET_ID: '1Y97HJI5kBE8i-R0f-pRYGqtBTlipqubl4yajGQOia9w',
 
