@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Prospecção</title>
+
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icon-192.png" type="image/png">
+
+  <meta name="theme-color" content="#f6f6f4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#16161a" media="(prefers-color-scheme: dark)">
+
+  <!-- iOS: tela cheia ao abrir pela tela de início -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Prospecção">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+
+  <!-- Google Identity Services: fornece o access token usado na Sheets API -->
+  <script src="https://accounts.google.com/gsi/client" async></script>
+</head>
+<body>
+  <div id="app"><div class="spinner"></div></div>
+  <script type="module" src="./app.js"></script>
+  <noscript>
+    <div style="padding:24px;font:15px system-ui">Este app precisa de JavaScript.</div>
+  </noscript>
+</body>
+</html>
